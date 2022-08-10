@@ -1,7 +1,133 @@
 li {
+    font-family: 'Roboto',
+        sans-serif;
     list-style-type: none;
 }
 ul {
     margin-left: 0;
     padding-left: 0;
 }
+.web{
+    position: absolute;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.web-study{
+    position: absolute;
+        width: 45px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: black;
+}
+.web-study:hover,:focus{
+    color: #2196F3;
+}
+.web-portfolio{
+    position: absolute;
+        width: 72px;
+        height: 16px;
+        left: 548px;
+        top: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.web-portfolio:hover,:focus{
+    color: #2196F3;
+}
+.web-contacts{
+    position: absolute;
+        width: 64px;
+        height: 16px;
+        left: 670px;
+        top: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #212121;
+}
+.web-contacts:hover, :focus{
+    color: #2196F3;
+}
+.mail{
+    position: absolute;
+        width: 135px;
+        height: 16px;
+        left: 900px;
+        top: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: black;
+}
+.mail:hover,:focus{
+    color: #2196F3;
+}
+.tel{
+    position: absolute;
+        width: 122px;
+        height: 16px;
+        left: 1100px;
+        top: 32px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+        color: #757575;
+}
+.tel:hover,:focus{
+    color: #2196F3;
+}
+.busines{
+    position: absolute;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 60px;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.bg{   
+    
+        width: 1600px;
+        height: 600px;
+        left: -15px;
+        top: 900px;
+        background-color: #2F303A;
+
+ }
