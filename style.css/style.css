@@ -286,14 +286,7 @@ p{
         letter-spacing: 0.03em;
         color: #2196F3;
 }
-.ul-address{
-    position: absolute;
-    width: 231px;
-    height: 81px;
-    left: 215px;
-    top: 2205px;
-    
-}
+
 .maps-address:hover,:focus{
     color: #2196F3;
 }
@@ -302,4 +295,46 @@ p{
 }
 .tel-address:hover,:focus{
     color: #2196F3;
+}
+.maps-address{
+    position: absolute;
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        top: 2205px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+}
+.mail-address{
+    position: absolute;
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        top: 2235px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+.tel-address{
+    position: absolute;
+        width: 231px;
+        height: 21px;
+        left: 215px;
+        top: 2265px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
 }
