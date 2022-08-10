@@ -272,6 +272,14 @@ p{
         border-radius: 0px 0px 4px 4px;
         text-align: center;
 }
+.bgfot {
+    position: absolute;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2094px;
+    background: #2F303A;
+}
 .web-footer{
         position: absolute;
         width: 145px;
@@ -311,7 +319,7 @@ p{
         color: #FFFFFF;
 }
 .mail-address{
-    position: absolute;
+        position: absolute;
         width: 231px;
         height: 21px;
         left: 215px;
@@ -325,7 +333,7 @@ p{
         color: rgba(255, 255, 255, 0.6);
 }
 .tel-address{
-    position: absolute;
+        position: absolute;
         width: 231px;
         height: 21px;
         left: 215px;
@@ -338,3 +346,4 @@ p{
         letter-spacing: 0.03em;
         color: rgba(255, 255, 255, 0.6);
 }
+
