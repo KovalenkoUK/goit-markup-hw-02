@@ -10,11 +10,7 @@ ul {
     
 }
 .web{
-    position: absolute;
-        width: 145px;
-        height: 31px;
-        left: 215px;
-        top: 24px;
+   
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -25,13 +21,10 @@ ul {
 }
 body {
     font-family: 'Roboto', sans-serif;
+    color: black;
 }
 .web-study{
-    position: absolute;
-        width: 45px;
-        height: 16px;
-        left: 453px;
-        top: 32px;
+   
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -43,11 +36,7 @@ body {
     color: #2196F3;
 }
 .web-portfolio{
-    position: absolute;
-        width: 72px;
-        height: 16px;
-        left: 548px;
-        top: 32px;
+    
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -59,11 +48,7 @@ body {
     color: #2196F3;
 }
 .web-contacts{
-    position: absolute;
-        width: 64px;
-        height: 16px;
-        left: 670px;
-        top: 32px;
+    
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -75,11 +60,7 @@ body {
     color: #2196F3;
 }
 .mail{
-    position: absolute;
-        width: 135px;
-        height: 16px;
-        left: 900px;
-        top: 32px;
+    
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -91,11 +72,7 @@ body {
     color: #2196F3;
 }
 .tel{
-    position: absolute;
-        width: 122px;
-        height: 16px;
-        left: 1100px;
-        top: 32px;
+    
         font-style: normal;
         font-weight: 500;
         font-size: 14px;
@@ -107,11 +84,7 @@ body {
     color: #2196F3;
 }
 .busines{
-    position: absolute;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 900;
@@ -125,11 +98,7 @@ body {
         background-color: #2F303A;
 }
 .order{
-        position: absolute;
-        width: 216px;
-        height: 50px;
-        left: 692px;
-        top: 430px;
+        
         background-color: #188CE8;
 }
 .osob1{ 
@@ -179,11 +148,7 @@ p{
         color: #757575;
 }
 .what-do{
-        position: absolute;
-        width: 366px;
-        height: 42px;
-        left: 617px;
-        top: 966px;
+        
         font-style: normal;
         font-weight: 700;
         font-size: 36px;
@@ -215,11 +180,7 @@ p{
         top: 1058px;
 }
 .our-com{
-    position: absolute;
-    width: 264px;
-    height: 42px;
-    left: 668px;
-    top: 1540px;
+    
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -229,44 +190,28 @@ p{
     color: #212121;
 }
 .ihor{
-        position: absolute;
-        width: 270px;
-        height: 368px;
-        left: 215px;
-        top: 1632px;
+        
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         text-align: center;
 }
 .olha{
-        position: absolute;
-        width: 270px;
-        height: 368px;
-        left: 515px;
-        top: 1632px;
+        
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         text-align: center;
 }
 .mikola{
-    position: absolute;
-        width: 270px;
-        height: 368px;
-        left: 815px;
-        top: 1632px;
+    
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         text-align: center;
 }
 .misha{
-    position: absolute;
-        width: 270px;
-        height: 368px;
-        left: 1115px;
-        top: 1632px;
+    
         background: #FFFFFF;
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
@@ -281,11 +226,7 @@ p{
     background: #2F303A;
 }
 .web-footer{
-        position: absolute;
-        width: 145px;
-        height: 31px;
-        left: 215px;
-        top: 2154px;
+        
         font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -305,11 +246,7 @@ p{
     color: #2196F3;
 }
 .maps-address{
-    position: absolute;
-        width: 231px;
-        height: 21px;
-        left: 215px;
-        top: 2205px;
+    
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -319,11 +256,7 @@ p{
         color: #FFFFFF;
 }
 .mail-address{
-        position: absolute;
-        width: 231px;
-        height: 21px;
-        left: 215px;
-        top: 2235px;
+        
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
@@ -333,11 +266,7 @@ p{
         color: rgba(255, 255, 255, 0.6);
 }
 .tel-address{
-        position: absolute;
-        width: 231px;
-        height: 21px;
-        left: 215px;
-        top: 2265px;
+        
         font-family: 'Roboto';
         font-style: normal;
         font-weight: 400;
