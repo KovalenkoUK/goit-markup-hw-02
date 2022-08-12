@@ -107,7 +107,7 @@ body {
         background-color: #2F303A;
 }
 .order{
-        
+        border: none;
         background-color: #188CE8;
 }
 .order:hover,:focus{
@@ -115,19 +115,6 @@ body {
         color: #FFFFFF;
         
 }
-.osob1{ 
-        
-}
-.osob2{
-        
-}
-.osob3{
-        
-}
-.osob4{
-        
-}
-
 h3{
         font-style: normal;
         font-weight: 700;
@@ -156,14 +143,8 @@ p{
         color: #212121;
     
 }
-.doing1{
-        
-}
-.doing2{
-        
-}
-.doing3{
-        
+.ourbg{
+    background: #F5F4FA;
 }
 .our-com{
     
@@ -174,35 +155,16 @@ p{
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
-}
-.ihor{
-        
-        background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-        text-align: center;
-}
-.olha{
-        
-        background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-        text-align: center;
-}
-.mikola{
     
-        background: #FFFFFF;
+}
+.ihor, .olha,
+.mikola,
+.misha{     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
         border-radius: 0px 0px 4px 4px;
         text-align: center;
 }
-.misha{
-    
-        background: #FFFFFF;
-        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-        border-radius: 0px 0px 4px 4px;
-        text-align: center;
-}
+
 .bgfot {
         background-color: #2F303A;
     
@@ -258,9 +220,19 @@ p{
         color: rgba(255, 255, 255, 0.6);
 }
 /* Портфолио*/
-.portfolio-navigation:hover, :focus{
-    color: #2196F3;
+.portfolio-navigation, .portfolio-site, .portfolio-dod, .portfolio-diz, .portfolio-mark{
+        background-color: #188CE8;
+        border: none;
+}
+.portfolio-navigation:hover, :focus, .portfolio-site:hover, :focus, .portfolio-dod:hover, :focus, .portfolio-diz:hover, :focus, .portfolio-mark:hover, :focus{
+    background-color: #2196F3;
     cursor: pointer;
+    color: #FFFFFF;
+}
+.portfolio-tekhno, .portfolio-poster, .portfolio-rest, .portfolio-prime, .portfolio-boxes, .portfolio-borders, .portfolio-limited, .portfolio-lab, .portfolio-growing{
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0,    0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+    text-align: center;
 }
 
 
