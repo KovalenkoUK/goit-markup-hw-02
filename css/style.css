@@ -4,6 +4,9 @@ li {
     list-style-type: none;
     
 }
+a{
+        text-decoration: none;
+}
 ul {
     margin-left: 0;
     padding-left: 0;
@@ -98,39 +101,31 @@ body {
         text-transform: uppercase;
         color: #FFFFFF;
         text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        
+}
+.fon{
         background-color: #2F303A;
 }
 .order{
         
         background-color: #188CE8;
 }
+.order:hover,:focus{
+        background-color: #2196F3;
+        color: #FFFFFF;
+        
+}
 .osob1{ 
-        position: absolute;
-        width: 270px;
-        height: 98px;
-        left: 215px;
-        top: 774px;
+        
 }
 .osob2{
-        position: absolute;
-        width: 270px;
-        height: 74px;
-        left: 515px;
-        top: 774px;
+        
 }
 .osob3{
-        position: absolute;
-        width: 270px;
-        height: 74px;
-        left: 815px;
-        top: 774px;
+        
 }
 .osob4{
-        position: absolute;
-        width: 270px;
-        height: 98px;
-        left: 1115px;
-        top: 774px;
+        
 }
 
 h3{
@@ -162,25 +157,13 @@ p{
     
 }
 .doing1{
-        position: absolute;
-        width: 370px;
-        height: 294px;
-        left: 215px;
-        top: 1058px;
+        
 }
 .doing2{
-        position: absolute;
-        width: 370px;
-        height: 294px;
-        left: 615px;
-        top: 1058px;
+        
 }
 .doing3{
-        position: absolute;
-        width: 370px;
-        height: 294px;
-        left: 1015px;
-        top: 1058px;
+        
 }
 .our-com{
     
@@ -221,6 +204,7 @@ p{
         text-align: center;
 }
 .bgfot {
+        background-color: #2F303A;
     
 }
 .web-footer{
