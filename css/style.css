@@ -26,9 +26,19 @@ button{
         letter-spacing: 0.03em;
         color: #2196F3;
 }
+:root{
+       --text-color: #212121;
+       --bggolor: #FFFFFF;
+       --neader-footer-textcolor: #757575; 
+       --logo-color:#2196F3;
+        
+}
 body {
     font-family: 'Roboto', sans-serif;
-    color: black;
+    color: #212121;
+    background-color: #fff;
+    font-size: 14px;
+    letter-spacing: 0.03;
 }
 .web-study{
    
@@ -37,10 +47,20 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
+        color: var(--text-color);
+}
+.active{
+        accent-color: var(--logo-color);
+}
+.studio-color{
         color: black;
 }
-.web-study:hover,:focus{
+.studio-ft{
+        color: #fff;
+}
+.web-study:hover,.web-study:focus{
     color: #2196F3;
+    background-color: #fff;
 }
 .web-portfolio{
     
@@ -51,8 +71,9 @@ body {
         letter-spacing: 0.02em;
         color: #212121;
 }
-.web-portfolio:hover,:focus{
+.web-portfolio:hover,.web-portfolio:focus{
     color: #2196F3;
+    background-color: #fff;
 }
 .web-contacts{
     
@@ -61,10 +82,11 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: #212121;
+        color: var(--text-color);
 }
-.web-contacts:hover, :focus{
+.web-contacts:hover,.web-contacts :focus{
     color: #2196F3;
+    background-color: #fff;
 }
 .mail{
     
@@ -73,10 +95,11 @@ body {
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
-        color: black;
+        color: #757575;
 }
-.mail:hover,:focus{
+.mail:hover,.mail:focus{
     color: #2196F3;
+background-color: #fff;
 }
 .tel{
     
@@ -87,8 +110,9 @@ body {
         letter-spacing: 0.02em;
         color: #757575;
 }
-.tel:hover,:focus{
+.tel:hover,.tel:focus{
     color: #2196F3;
+background-color: #fff;
 }
 .busines{
     
@@ -110,8 +134,15 @@ body {
 .order{
         border: none;
         background-color: #188CE8;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
 }
-.order:hover,:focus{
+.order:hover,.order:focus{
         background-color: #2196F3;
         color: #FFFFFF;
         
@@ -181,14 +212,18 @@ p{
         color: #2196F3;
 }
 
-.maps-address:hover,:focus{
+.maps-address:hover,.maps-address:focus{
     color: #2196F3;
+
 }
-.mail-address:hover,:focus{
+.mail-address:hover,.mail-address:focus{
     color: #2196F3;
+
 }
-.tel-address:hover,:focus{
+.tel-address:hover,.tel-address:focus{
     color: #2196F3;
+    
+
 }
 .maps-address{
     
