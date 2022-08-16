@@ -86,10 +86,7 @@ body {
     color: #2196F3;
     background-color: #fff;
 }
-.active:active,.active:current {
-        color: var(--logo-color);
-        
-}
+
 .mail{
     
         font-style: normal;
@@ -115,6 +112,10 @@ background-color: #fff;
 .tel:hover,.tel:focus{
     color: #2196F3;
 background-color: #fff;
+}
+.current {
+        color: var(--logo-color);
+
 }
 .busines{
     
